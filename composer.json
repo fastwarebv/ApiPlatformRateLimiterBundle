@@ -1,9 +1,9 @@
 {
-    "name": "bigchicchicken/api-platform-rate-limiter-bundle",
+    "name": "fastwarebv/api-platform-rate-limiter-bundle",
     "type": "api-platform-bundle",
     "description": "Bundle to controls how frequently certain APIs are allowed to be called for ApiPlatform",
     "keywords": ["symfony", "api-patform", "rate limiter", "security"],
-    "homepage": "https://github.com/BigChicChicken/ApiPlatformRateLimiterBundle",
+    "homepage": "https://github.com/fastwarebv/ApiPlatformRateLimiterBundle",
     "license": "MIT",
     "autoload": {
         "psr-4": {
