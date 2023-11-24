@@ -71,6 +71,10 @@ class RateLimiterSubscriber implements EventSubscriberInterface
         }
 
         $resourceMetadata = $this->resourceMetadataCollectionFactory->create($attributes['resource_class']);
+        
+        if (!array_key_exists('operation_name',$attributes)) {
+            return;
+        }
         $operation = $resourceMetadata->getOperation($attributes['operation_name']);
         $extra = $operation->getExtraProperties();
 
